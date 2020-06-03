@@ -1,9 +1,6 @@
 use commerce;
+
 db.produtos.updateMany(
-  {
-    "valorUnitario": {$exists: false}
-  },
-  {
-    $set: {"valorUnitario": NumberDecimal(0.00)}
-  }
+  { "valorUnitario": {$exists: false} },
+  { $set: { "valorUnitario": NumberDecimal("0.00") } }
 );
