@@ -1,2 +1,2 @@
 use commerce;
-db.produtos.updateMany({}, { $pull: { ingredientes: 'cebola'}});
+db.produtos.updateMany({}, { $pull: { ingredientes: 'cebola' } });

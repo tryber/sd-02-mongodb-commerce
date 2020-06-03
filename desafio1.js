@@ -1,2 +1,2 @@
 use commerce;
-db.produtos.updateMany({}, { $set: { criadoPor: "Pedro Tofani" }});
+db.produtos.updateMany({}, { $set: { criadoPor: "Pedro Tofani" } });

@@ -5,4 +5,5 @@ db.produtos.updateMany(
   },
   {
     $push: { ingredientes: 'bacon' }
-  });
+  }
+);
