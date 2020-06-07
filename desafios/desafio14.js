@@ -8,7 +8,7 @@ db.produtos.updateMany(
   },
   {
     $set: {
-      "vendasPorDia.6": 120 
+      "vendasPorDia.6": 120
     }
   }
 );
