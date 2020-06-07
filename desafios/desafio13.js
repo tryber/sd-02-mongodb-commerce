@@ -5,11 +5,6 @@ db.produtos.updateOne(
     nome: "Big Mac"
   },
   {
-    $push: {
-      vendasPorDia: {
-        $each: [60],
-        $position: 3
-      }
-    }
+    $set: { "vendasPorDia.3": 60 }
   }
 );
