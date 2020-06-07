@@ -13,8 +13,3 @@ db.produtos.updateOne(
       }
     }
   });
-
-  db.produtos.find(
-    {
-      nome: "Big Mac"
-    }).pretty();
