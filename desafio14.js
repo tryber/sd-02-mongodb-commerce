@@ -5,4 +5,3 @@ db.produtos.updateMany(
     $inc: { "vendasPorDia.6": 120 }
   }
 );
-
