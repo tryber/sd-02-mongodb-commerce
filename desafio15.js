@@ -1,1 +1,1 @@
-> db.produtos.updateMany({}, { $push: { tags: { $each: ["combo", "tasty"] } } }, { $sort: { nome: 1 } } );
+db.produtos.updateMany({}, { $push: { tags: { $each: ["combo", "tasty"], $sort: 1 } } } );
