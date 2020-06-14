@@ -5,11 +5,8 @@ db.produtos.updateMany(
     }
   },
   {
-    $push: {
-      "vendasPorDia": {
-          $each: [120],
-          $position: 6
-      }
+    $inc: {
+      "vendasPorDia.6": 120
     }
   }
 );

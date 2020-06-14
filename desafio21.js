@@ -1,8 +1,4 @@
 db.produtos.createIndex(
-  {
-    $text: {
-      $search: "descricao",
-      $language: "portuguese"
-    }
-  }
+  { descricao: "text" },
+  { default_language: "portuguese" }
 );
