@@ -9,4 +9,3 @@ db.produtos.updateMany(
     }
   }
 );
-  
