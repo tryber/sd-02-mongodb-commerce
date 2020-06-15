@@ -1,5 +1,5 @@
 use commerce;
 db.produtos.updateMany(
   {},
-  { $set: { 'avaliacao': NumberInt(5) } }
+  { $set: { 'avaliacao': NumberInt(0) } }
 );
