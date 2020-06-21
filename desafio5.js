@@ -1,8 +1,6 @@
 db.produtos.updateMany(
   {
-    tags: {
-      $all: ["ave"]
-    }
+    tags: "ave"
   },
   {
     $inc: {

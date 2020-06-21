@@ -1,8 +1,6 @@
 db.produtos.updateMany(
   {
-    tags: {
-      $all: ["bovino"]
-    }
+    tags: "bovino"
   },
   {
     $inc: {
