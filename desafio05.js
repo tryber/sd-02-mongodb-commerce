@@ -2,10 +2,10 @@ use commerce;
 db.produtos.updateMany(
   {
     tags: {
-      $all: ["bovino"]
+      $all: ["ave"]
     }
   },
   {
-    $inc: { "avaliacao": 5 }
+    $inc: { "avaliacao": 3 }
   }
 );
